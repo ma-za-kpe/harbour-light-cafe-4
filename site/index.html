@@ -1,22 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coming soon</title>
+  <meta name="description" content="Harbour Light Café is a small harbourside café in Whitby serving flat whites, full breakfasts and lemon drizzle cake. Open Wednesday to Monday, 8am to 4pm at 3 Quay Street, Whitby.">
+  <meta property="og:title" content="Harbour Light Café — Harbourside Café in Whitby">
+  <meta property="og:description" content="Flat whites, full breakfasts and lemon drizzle cake at 3 Quay Street, Whitby. Open Wednesday to Monday, 8am to 4pm. Book a table.">
+  <title>Harbour Light Café — Harbourside Café in Whitby</title>
+  <link rel="icon" href="%BASE%favicon.svg">
   <link rel="stylesheet" href="%BASE%styles.css">
 </head>
 <body data-release="%RELEASE%">
-  <a class="skip" href="#main">Skip to content</a>
-  <header>
-    <p class="brand">Coming soon</p>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true" focusable="false">
+        <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="24" cy="22" r="9" fill="currentColor"/>
+        <path d="M24 2 L24 9 M38 10 L33 15 M10 10 L15 15 M46 24 L39 24 M2 24 L9 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+        <path d="M10 36 Q17 32 24 36 T38 36" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+      </svg>
+      <span class="brand-name">Harbour Light Café</span>
+    </a>
+    <p class="demo-flag">Demonstration site — a fictional business</p>
   </header>
-  <main id="main">
-    <h1>This site is being built</h1>
-    <p>The crew is preparing the first release of this page.</p>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Harbourside café · Whitby</p>
+      <h1>Harbour Light Café</h1>
+      <p class="lede">A small, bright café on the harbour in Whitby. Quick, well-made coffee, a proper full breakfast and a slice of lemon drizzle cake — for students and young professionals with a little time to spare.</p>
+      <a class="cta" href="#book">Book a table</a>
+    </section>
+
+    <section class="menu" aria-labelledby="menu-title">
+      <h2 id="menu-title">What we serve</h2>
+      <ul class="menu-list">
+        <li class="card">
+          <span class="card-label">Coffee</span>
+          <span class="card-name">Flat white</span>
+          <span class="card-price">£3.20</span>
+        </li>
+        <li class="card">
+          <span class="card-label">Breakfast</span>
+          <span class="card-name">Full breakfast</span>
+          <span class="card-price">£9.50</span>
+        </li>
+        <li class="card">
+          <span class="card-label">Bakery</span>
+          <span class="card-name">Lemon drizzle cake</span>
+          <span class="card-price">£3.80</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="hours" aria-labelledby="hours-title">
+      <h2 id="hours-title">When we are open</h2>
+      <p class="hours-line">Wednesday to Monday, 8am to 4pm</p>
+    </section>
+
+    <section class="find" aria-labelledby="find-title">
+      <h2 id="find-title">How to find us</h2>
+      <ul class="find-list">
+        <li class="card">
+          <span class="card-label">Address</span>
+          <a class="card-link" href="https://www.google.com/maps/search/?api=1&amp;query=3 Quay Street, Whitby">3 Quay Street, Whitby</a>
+        </li>
+        <li class="card">
+          <span class="card-label">Phone</span>
+          <a class="card-link" href="tel:01947600000">01947 600 000</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="book" id="book" aria-labelledby="book-title">
+      <h2 id="book-title">Book a table</h2>
+      <p class="book-copy">Reserve a seat by phone — we will hold it for you.</p>
+      <a class="cta" href="tel:01947600000">Book a table</a>
+    </section>
   </main>
-  <footer>
-    <p>Built by Yard Crew.</p>
+
+  <footer class="site-footer">
+    <p class="foot-note">Demonstration site — Harbour Light Café is a fictional business.</p>
+    <ul class="foot-list">
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=3 Quay Street, Whitby">3 Quay Street, Whitby</a></li>
+      <li><a href="tel:01947600000">01947 600 000</a></li>
+    </ul>
   </footer>
 </body>
 </html>
